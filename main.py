@@ -27,8 +27,8 @@ def berechnung_func(fd):
         fdt = (280 / ((int(zl[1]) + 50) / int(zl[0]))) * 1000
     else:
         fdt = 0
-        snackbar = Snackbar(text="fdt ist nicht korrekt eingegeben")
-        snackbar.show()
+        snackbar = Snackbar(text="fdt ist nicht korrekt eingegeben. Form für eingeben 6-1000")
+        snackbar.open()
     return fdt
 
 
